@@ -33,7 +33,7 @@ function Github() {
               Followers : {data.followers}
             </h3>
             <h3 className="text-base font-semibold">
-              Followers : {data.following}
+            Following : {data.following}
             </h3>
           </div>
         </div>
@@ -52,7 +52,7 @@ function Github() {
                 Followers : {data1.followers}
               </h3>
               <h3 className="text-base font-semibold">
-                Followers : {data1.following}
+              Following : {data1.following}
               </h3>
             </div>
           </div>
@@ -71,7 +71,7 @@ function Github() {
                 Followers : {data2.followers}
               </h3>
               <h3 className="text-base font-semibold">
-                Followers : {data2.following}
+              Following : {data2.following}
               </h3>
             </div>
           </div>
