@@ -1,15 +1,14 @@
 import Card from "./components/card";
-import "./App.css";
 
 function App() {
   let user = {
-    name: "Ashish",
+    name: "Banrakash aadmi",
     title: "Yo YO ...",
   };
 
   return (
     <>
-      <div className="w-screen h-full bg-gray-300 ">
+      <div className="w-screen h-full bg-gray-300 p-4 flex flex-wrap gap-3">
         <h1 className="text-white p-5 bg-blue-700 rounded-lg w-full mb-4 text-center">
           Tailwind Test
         </h1>

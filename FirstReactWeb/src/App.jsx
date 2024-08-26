@@ -19,6 +19,8 @@ function App() {
       <h2>Counter Number1 (0 - 20) : {counter}</h2>
       <h2>Counter Number2 (0 - 20) : {counter}</h2>
       <h2>Counter Number3 (0 - 20) : {counter}</h2>
+
+      
       <button onClick={add}>Plus {counter}</button>
       <br />
       <br />
