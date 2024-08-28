@@ -6,7 +6,7 @@ function Github() {
   const data = useLoaderData();
   const [data1, setData1] = useState([]);
   useEffect(() => {
-    fetch("https://api.github.com/users/ashishpandey91")
+    fetch("https://api.github.com/users/ashishkpandey91")
       .then((response) => response.json())
       .then((data1) => setData1(data1));
   }, []);
@@ -28,7 +28,7 @@ function Github() {
             alt="image"
           />
           <div className="flex-col gap-2 ml-3">
-            <h1 className="text-lg font-bold">{data.login}</h1>
+            <h1 className="text-lg font-bold">{data.name}</h1>
             <h3 className="text-base font-semibold">
               Followers : {data.followers}
             </h3>
@@ -47,7 +47,7 @@ function Github() {
               alt="image"
             />
             <div className="flex-col gap-2 ml-3">
-              <h1 className="text-lg font-bold">{data1.login}</h1>
+              <h1 className="text-lg font-bold">{data1.name}</h1>
               <h3 className="text-base font-semibold">
                 Followers : {data1.followers}
               </h3>
@@ -66,7 +66,7 @@ function Github() {
               alt="image"
             />
             <div className="flex-col gap-2 ml-3">
-              <h1 className="text-lg font-bold">{data2.login}</h1>
+              <h1 className="text-lg font-bold">{data2.name}</h1>
               <h3 className="text-base font-semibold">
                 Followers : {data2.followers}
               </h3>
